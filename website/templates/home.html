@@ -1,0 +1,483 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Dr. Helena C. Sanchez F.</title>
+
+  <!-- logo -->  
+  <link rel="icon" href="{% static 'website/img/bg-img/hcs-icon-01.jpg' %}">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Calle Clemente Brito, Entre Sector El Manzano, Vía Río Claro, El Manzano, Barquisimeto, Vzla"><i class="fa fa-map-marker"></i> <span>Calle Clemente Brito, Entre Sector El Manzano, Vía Río Claro, El Manzano, Barquisimeto, Vzla</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="(0426)551.8473"><i class="fa fa-envelope"></i> <span>(0426)551.8473</span></a>
+            </div>
+          </div>
+          <!-- Top Header Social Info -->
+          <div class="col-6 col-md-3 col-lg-4">
+            <div class="top-header-social-info text-right">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="{% url 'home' %}"><img src="{% static 'website/img/core-img/hcs-logo-03.png' %}" alt=""></a>
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="{% url 'home' %}">Inicio</a></li>
+                
+                  <li><a href="service.html">Servicios</a></li>
+                  <li><a href="galeria.html">Galería</a></li>
+                  <li><a href="pricing.html">Precios</a></li>
+                
+                    
+                  </li>
+                  <li><a href="./contact.html">Contactos</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+
+            <!-- Booking Now Button -->
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Welcome Area Start ***** -->
+  <section class="welcome-area">
+    <!-- Welcome Slides -->
+    <div class="welcome-slides owl-carousel">
+      <!-- Single Welcome Slide --> 
+      <div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: url({% static 'website/img/bg-img/hcs-02.jpg' %});">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12">
+              <!-- Welcome Text -->
+              <div class="welcome-text text-center">
+                <h2 data-animation="fadeInUp" data-delay="100ms">En la Clínica San Andrés creemos que la belleza interior se lleva mejor en un cuerpo sano y bello.</h2>
+                <p data-animation="fadeInUp" data-delay="300ms">La Dr. Helena C. Sánchez F. y su equipo médico te da la bienvenida a su página web. Contáctanos y descubre todos los procedimientos que tenemos para resaltar tu salud y belleza.</p>
+                <div class="welcome-btn-group">
+               
+                  <a href="./contact.html" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms">Contactenos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Welcome Slide -->
+      <div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: url({% static 'website/img/bg-img/hcs-03.jpg' %});">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12">
+              <!-- Welcome Text -->
+              <div class="welcome-text text-center">
+                <h2 data-animation="fadeInDown" data-delay="100ms">En la Clínica San Andrés creemos que la belleza interior se lleva mejor en un cuerpo sano y bello.</h2>
+                <p data-animation="fadeInUp" data-delay="300ms">La Dr. Helena C. Sánchez F. y su equipo médico te da la bienvenida a su página web. Contáctanos y descubre todos los procedimientos que tenemos para resaltar tu salud y belleza.</p>
+                <div class="welcome-btn-group">
+                  
+                  <a href="./contact.html" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms">Contactenos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Welcome Area End ***** -->
+
+  <!-- ****** About Us Area Start ******* -->
+  <section class="dento-about-us-area section-padding-100-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- About Us Thumbnail --> 
+        <div class="col-12 col-md-6"> 
+          <div class="about-us-thumbnail mb-50">
+            <img src="{% static 'website/img/bg-img/hcs-01.jpg' %}" alt="">
+          </div>
+        </div>
+        <!-- About Content -->
+        <div class="col-12 col-md-6">
+          <div class="about-us-content mb-50">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <h2>Experiencia, Seguridad e Innovación</h2>
+              <div class="line"></div>
+            </div>
+            <p>CIRUGIA PLASTICA en BARQUISIMETO,Edo. LARA, VENEZUELA.
+La Dr. Helena C. Sánchez es una profesional de la Cirugía Plástica, especialista en Rejuvenecimiento Cervico-Facial, Cirugía estética Nasal y Técnicas de última generación de contorno corporal,  con más de 20 años de ejercicio ininterrumpido. Posee un testimonio moral y ético intachable, avalado por los CIENTOS de pacientes que la honran con su confianza.</p>
+
+            <!-- Single Skills Area -->
+            <div class="single-skills-area mt-30">
+              <h6>Figura Perfecta</h6>
+              <div id="bar1" class="barfiller">
+                <span class="tip"></span>
+                <span class="fill" data-percentage="80"></span>
+              </div>
+            </div>
+
+            <!-- Single Skills Area -->
+            <div class="single-skills-area mt-30">
+              <h6>Perfil Facial Ideal</h6>
+              <div id="bar2" class="barfiller">
+                <span class="tip"></span>
+                <span class="fill" data-percentage="65"></span>
+              </div>
+            </div>
+
+            <!-- Single Skills Area -->
+            <div class="single-skills-area mt-30">
+              <h6>Senos más Bonitos</h6>
+              <div id="bar3" class="barfiller">
+                <span class="tip"></span>
+                <span class="fill" data-percentage="85"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****** About Us Area End ****** -->
+
+  <div class="container">
+    <div class="dento-border clearfix"></div>
+  </div>
+
+  <!-- Cool Facts Area Start -->
+  <section class="dento-cta-area">
+    <div class="container">
+      <div class="row">
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_genius"></i>
+            <h2><span class="counter">20</span></h2>
+            <h5>Años de Experiencia</h5>
+          </div>
+        </div>
+
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_heart_alt"></i>
+            <h2><span class="counter">700</span>+</h2>
+            <h5>Pacientes Felices</h5>
+          </div>
+        </div>
+
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_book_alt"></i>
+            <h2><span class="counter">120</span></h2>
+            <h5>Certificados</h5>
+          </div>
+        </div>
+
+        <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_id"></i>
+            <h2><span class="counter">8</span>+</h2>
+            <h5>Personal</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Cool Facts Area End -->
+
+
+  <!-- Book An Oppointment Area Start -->
+
+  <!-- Book An Oppointment Area End -->
+
+  <!-- ***** Dento Dentist Area Start ***** -->
+  <section class="dentist-area section-padding-100-0">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Nuestro Personal Médico</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Single Dentist Area -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="single-dentist-area mb-100">
+            <img src="{% static 'website/img/bg-img/hcs-helena-01.jpg' %}" alt="">
+            <!-- Dentist Content -->
+            <div class="dentist-content">
+              <!-- Social Info -->
+              <div class="dentist-social-info">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+              <!-- Dentist Info -->
+              <div class="dentist-info bg-gradient-overlay">
+                <h5>Dr. Helena Sánchez</h5>
+                <p>Experta en implantes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Dentist Area -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="single-dentist-area mb-100">
+            <img src="{% static 'website/img/bg-img/hcs-helena-01.jpg' %}" alt="">
+            <!-- Dentist Content -->
+            <div class="dentist-content">
+              <!-- Social Info -->
+              <div class="dentist-social-info">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+              <!-- Dentist Info -->
+              <div class="dentist-info bg-gradient-overlay">
+                <h5>Dr. Helena Sánchez</h5>
+                <p>Experta en implantes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Dentist Area -->
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="single-dentist-area mb-100">
+            <img src="{% static 'website/img/bg-img/hcs-helena-01.jpg' %}" alt="">
+            <!-- Dentist Content -->
+            <div class="dentist-content">
+              <!-- Social Info -->
+              <div class="dentist-social-info">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+              <!-- Dentist Info -->
+              <div class="dentist-info bg-gradient-overlay">
+                <h5>Dr. Helena Sánchez</h5>
+                <p>Experta en implantes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Dento Dentist Area End ***** -->
+
+  <!-- ***** Testimonials Area Start ***** -->
+  <section class="testimonials-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url({% static 'website/img/bg-img/7.jpg' %});">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- Testimonials Slides -->
+          <div class="testimonials-slides owl-carousel">
+            <!-- Single Testimonials Slide -->
+            <div class="single-testimonial-slide d-flex align-items-center">
+            
+              <!-- Thumbnail -->
+              <div class="testimonial-thumb">
+                <img src="{% static 'website/img/bg-img/8.jpg' %}" alt="">
+              </div>
+             
+              <!-- Content -->
+              <div class="testimonial-content">
+                <h5>“Mi nombre es Daniel y la Dra. Sánchez me operó el pecho puesto que tenía ginecomastía.
+No hay día que no me alegre de ésta decisión, la Dra. es un profesional excelente. Hace un trabajo perfecto y todo el tiempo te hace sentir muy muy cómodo. Un excelente cirujando y ser humano.”
+                </h5>
+                <h6>Daniel Cadenas</h6>
+                <p>Paciente</p>
+              </div>
+            </div>
+
+            <!-- Single Testimonials Slide -->
+            <div class="single-testimonial-slide d-flex align-items-center">
+            
+           
+              <!-- Content -->
+              <div class="testimonial-content">
+                <h5>“Recomiendo a la Doctora Helena Carolina Sánchez como EXCELENTE cirujano. Me realizó una cirugía de contorno corporal en febrero de 2019 y desde la primera consulta me sentí segura y confiada. La doctora es  un maravilloso ser humano y una gran profesional.Tuve la mejor atención ANTES, DURANTE Y DESPUÉS de la cirugía.”</h5>
+                <h6>Yajaira Mendez</h6>
+                <p>Pacienter</p>
+              </div>
+            </div>
+
+            <!-- Single Testimonials Slide -->
+            <div class="single-testimonial-slide d-flex align-items-center">
+              
+
+              <!-- Content -->
+              <div class="testimonial-content">
+                <h5>“Recomiendo ampliamente a la doctora Helena, es un excelente cirujano, hace ya un mes que me operó, fueron dos cirugías al mismo tiempo (una rinoplastia y un aumento de busto) y he quedado totalmente satisfecha con los resultados, ya que con las dos cirugías obtuve un aspecto muy agradable y natural, aparte la recuperación ha sido buena, y ella ha llevado seguimiento de ella, considero que fue la mejor elección, ya que visité antes a otros cirujanos pero ninguno me convenció.”</h5>
+                <h6>Teresa Trujillo</h6>
+                <p>Paciente</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Testimonials Area End ***** -->
+
+  <!-- ***** Blog Area Start ***** -->
+  
+  <!-- ***** Blog Area End ***** -->
+
+  <!-- ***** Footer Area Start ***** -->
+<footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/3.jpg' %});">
+    <div class="container">
+      <div class="row">
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-footer-widget">
+            <a href="./index.html" class="d-block mb-4"><img src="{% static 'website/img/core-img/hcs-icon-03' %}" alt=""></a>
+            <p> </p>
+            <div class="footer-contact">
+              <p><i class="icon_pin"></i> Unidad Quirúrgica San Andrés. Calle Clemente Brito, Entre Sector El Manzano, Vía Río Claro, El Manzano, Barquisimeto, Vzla</p>
+              <p><i class="icon_phone"></i> (0426)551.8473</p>
+              <p><i class="icon_phone"></i> WhatsApp (0426)551.8473</p>
+              <p><i class="icon_mail"></i> helenacarolinasanchez@gmail.com</p>
+              <p><i class="icon_facebook"></i> helenacarolinasanchez@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-20 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            <h5 class="widget-title">Horas de Trabajo</h5>
+
+            <!-- Opening Hours -->
+            <ul class="opening-hours">
+              <li><span>Lun-Mie</span> <span>8.00-18.00</span></li>
+              <li><span>Jue-Vie</span> <span>8.00-17.00</span></li>
+              <li><span>Sab</span> <span>9.00-17.00</span></li>
+              <li><span>Dom</span> <span>10.00-17.00</span></li>
+              <li><span>Dias Fiesta</span> <span>Cerrado</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            
+            
+          </div>
+        </div>
+
+        <!-- Single Footer Widget -->
+        <div class="col-12 col-sm-6 col-lg">
+          <div class="single-footer-widget">
+            <!-- Widget Title -->
+            
+
+            <!-- Social Info -->
+            <div class="footer-social-info">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copywrite Area -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="copywrite-content">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <!-- jQuery js -->
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
+  <!-- Popper js -->
+  <script src="{% static 'website/js/popper.min.js' %}"></script>
+  <!-- Bootstrap js -->
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+  <!-- All js -->
+  <script src="{% static 'website/js/dento.bundle.js' %}"></script>
+  <!-- Active js -->
+  <script src="{% static 'website/js/default-assets/active.js' %}"></script>
+
+</body>
+
+</html>
